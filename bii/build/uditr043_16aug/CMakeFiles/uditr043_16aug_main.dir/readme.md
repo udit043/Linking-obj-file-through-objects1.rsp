@@ -1,6 +1,6 @@
 When you want to link any .obj/.o file in biicode then according to guide (http://docs.biicode.com/c++/adapt_library_guide.html)
 You have to make changes in CMakeList.txt but i found another way to link object file.
-#example
+#Example
 Here i use conio.o , an object file and i want to link this object file in my program (main.c)
 Instead of editing CMakeList.txt i edit objects1.rsp file inside 
 (bii/build/uditr043_16aug/CMakeFiles/uditr043_16aug_main.dir) folder.
