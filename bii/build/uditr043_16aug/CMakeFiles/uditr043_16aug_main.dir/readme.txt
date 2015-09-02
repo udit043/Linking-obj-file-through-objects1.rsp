@@ -13,7 +13,10 @@ Previously objects1.rsp was : CMakeFiles/uditr043_16aug_main.dir/main.cpp.obj
 But this gives linker error : undefined reference to 'textcolor'.
 
 objects1.rsp after editing : CMakeFiles/uditr043_16aug_main.dir/main.cpp.obj CMakeFiles/uditr043_16aug_main.dir/conio.o
+and copy conio.o(object file) to (bii/build/uditr043_16aug/CMakeFiles/uditr043_16aug_main.dir) folder.
 
 After adding this one line ("CMakeFiles/uditr043_16aug_main.dir/conio.o") programs runs fine.
+
+Biicode automatically link conio.o in the program.
 
 Is this a bug ? 
